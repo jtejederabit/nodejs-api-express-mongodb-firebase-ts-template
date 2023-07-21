@@ -10,7 +10,7 @@ import { connectToDB } from "./utils/db";
 const serviceAccount = require('./your-service-account.json');
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
-    databaseURL: 'firebase-database-url
+    databaseURL: 'firebase-database-url',
     storageBucket: 'firebase-storage-bucket',
 });
 
