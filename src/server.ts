@@ -8,10 +8,10 @@ const server = http.createServer(app);
 const io = new Server(server);
 
 io.on('connection', (socket) => {
-    console.log('Nuevo cliente conectado');
-    // Aquí puedes implementar tus eventos de Socket.IO
+    console.log('New client connected');
+    // Implement your socket.io events here
 });
 
 server.listen(PORT, () => {
-    console.log(`Servidor escuchando en el puerto ${PORT}`);
+    console.log(`Server listening at port ${PORT}`);
 });
