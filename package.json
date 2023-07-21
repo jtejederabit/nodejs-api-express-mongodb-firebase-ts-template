@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-api-express-mongodb-firebase-ts-template",
+  "version": "1.0.0",
+  "description": "Nodejs + Expressjs + MongoDB + Firebase + Typescript API Template
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtejederabit/nodejs-api-express-mongodb-firebase-ts-template.git"
+  },
+  "author": "JTBIT SL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jtejederabit/nodejs-api-express-mongodb-firebase-ts-template/issues"
+  },
+  "homepage": "https://github.com/jtejederabit/nodejs-api-express-mongodb-firebase-ts-template#readme",
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.17",
+    "dayjs": "^1.11.9",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.10.1",
+    "jimp": "^0.22.8",
+    "mongoose": "^7.4.0",
+    "nanoid": "^4.0.2",
+    "nodemon": "^3.0.1",
+    "socket.io": "^4.7.1"
+  }
+}
