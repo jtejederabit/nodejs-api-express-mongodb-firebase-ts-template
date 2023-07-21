@@ -53,7 +53,7 @@ bashCopy code
 
 
 ## Usage
--   Start the server`npx nodemon .\src\app.ts`
+-   Start the server`npx nodemon .\src\server.ts`
 -   The development server will be running at `http://localhost:3000` by default.
 -   Sample routes and models are provided in the `src/routes` and `src/models` directories.
 -   You can modify or extend these routes and models to suit your application's needs.
